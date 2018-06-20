@@ -1,0 +1,87 @@
+
+
+
+#start {
+	margin-top: 10px;
+}
+
+#restart {
+	margin-top: 10px;
+}
+
+#splashScreen {
+	display: inherit;
+	margin-top: 100px;
+}
+
+#questions {
+	display: none;
+	margin-top: 50px;
+}
+
+#snarf {
+	background: #fff;
+}
+
+#text {
+	margin-bottom: 20px;
+}
+
+#gameOver {
+	display: none;
+	margin-top: 50px;
+}
+
+#timer {
+	visibility: hidden;
+}
+
+#img1 {
+	height: 400px;
+	background: url("https://raw.githubusercontent.com/fredlintz5/triviaGame/master/assets/images/kingArthur.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+
+#img2 {
+	height: 400px;
+	background: url("https://raw.githubusercontent.com/fredlintz5/triviaGame/master/assets/images/bridgeKeeper.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+
+#arthurThoughts, #keeperThoughts {
+	display: none;
+}
+
+#arthurThoughts img {
+	position: relative;
+    bottom: 460px;
+    right: 5px;
+    width: 160px;
+}
+
+#arthurThoughts p {
+	position: relative;
+    bottom: 564px;
+    line-height: 2px;
+    right: 4px;
+    font-size: .8em;
+}
+
+#keeperThoughts img {
+	position: relative;
+    bottom: 461px;
+    right: 6px;
+    width: 160px;
+}
+
+#keeperThoughts p {
+	position: relative;
+    bottom: 554px;
+    line-height: 2px;
+    right: 5px;
+    font-size: .8em;
+}
